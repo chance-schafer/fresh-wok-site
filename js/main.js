@@ -38,6 +38,10 @@ let swiperTwo = new Swiper('.food-slider', {
       slidesPerView: 3,
     },
   },
+  keyboard: {
+    enabled: true,
+    onlyInViewport: true,
+  },
 });
 
 let previewContainer = document.querySelector('.food-preview-container');
