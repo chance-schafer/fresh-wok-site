@@ -15,6 +15,10 @@ let swiper = new Swiper('.home-slider', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+  keyboard: {
+    enabled: true,
+    onlyInViewport: true,
+  },
 });
 
 let swiperTwo = new Swiper('.food-slider', {
